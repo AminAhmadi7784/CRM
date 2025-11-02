@@ -36,6 +36,7 @@ export default function NearestEvents() {
                         title={even.title}
                         time={even.time}
                         color={even.color} />
+                        
                 )
                 )}
             </div>
