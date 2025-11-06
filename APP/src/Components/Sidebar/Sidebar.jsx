@@ -62,41 +62,7 @@ export default function Sidebar() {
             );
           })}
 
-          {/* <div className='sidebar-top__menu__item d-flex align-items-center active' >
-            <RxDashboard className='menu-item-logo m-1' />
-            <Link to='/'>داشبورد</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <IoLayers className='menu-item-logo m-1' />
-            <Link to='/projects'>پروژه</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <FaRegCalendar className='menu-item-logo m-1' />
-            <Link to='/calendar'>تقویم</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <MdOutlineLocalAirport className='menu-item-logo m-1' />
-            <Link to='/vacations'>تعطیلات</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <IoIosContacts className='menu-item-logo m-1' />
-            <Link to='/employes'>استخدام</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <LuMessagesSquare className='menu-item-logo m-1' />
-            <Link to='/messenger'>مسنجر</Link>
-          </div>
-
-          <div className='sidebar-top__menu__item d-flex align-items-center'>
-            <FaRegFolderOpen className='menu-item-logo m-1' />
-            <Link to='/infoPortal'>پورتال اطلاعات</Link>
-          </div> */}
-
+       
 
 
         </div>
