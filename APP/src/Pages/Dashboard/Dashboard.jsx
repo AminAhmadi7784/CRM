@@ -1,7 +1,7 @@
 import React from 'react'
 import DashboardHeader from '../../Components/DashboardHeder/DashboardHeader'
 import Workload from '../../Components/Workload/Workload'
-import NearestEvents from '../../Components/NearestEvents/NearestEvents'
+import NearestEvent from '../../Components/NearestEvent/NearestEvent'
 import ViewAllBtn from '../../Components/ViewAllBtn/ViewAllBtn'
 
 import './Dashboard.css'
@@ -14,7 +14,7 @@ export default function Dashboard() {
       <div className='dashboard__main d-flex justify-content-between'>
         <Workload />
 
-        <NearestEvents />
+        <NearestEvent />
       </div>
 
       {/* <div className='dashboard__bottom'>

@@ -7,9 +7,12 @@ import Employes from './Pages/Employees/Employees'
 import Messenger from './Pages/Messenger/Messanger'
 import InfoPortal from './Pages/InfoPortal/InfoPortal'
 import MainPage from './mainPage'
+import NearestEvents from './Pages/NearestEvents/NearestEvents'
+
 
 const routes = [
-    { path: '/', element: <Dashboard /> },
+    { path: '/', element: <Dashboard />},
+    { path: '/nearestEvents', element:<NearestEvents/>},
     { path: '/projects', element: <Projects /> },
     { path: '/calendar', element: <Calendar /> },
     { path: '/vacations', element: <Vacations /> },

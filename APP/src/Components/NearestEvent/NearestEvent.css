@@ -1,53 +1,64 @@
-.nearestEvents{
+.NearestEvent {
     background-color: white;
     border-radius: 15px;
     margin: 5px 0 5px 0;
     padding: 5px;
-    
+
 
 }
-.nearestEvents__event{
+
+.NearestEvent__event {
     margin-top: 20px;
 }
 
-.nearestEvents {
+.NearestEvent {
     height: 100%;
 }
 
-.nearestEvents__event {
+.NearestEvent__event {
     height: 100%;
-    max-height: 400px; /* یا ارتفاع مورد نظر شما */
+    max-height: 400px;
+    /* یا ارتفاع مورد نظر شما */
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* فاصله بین ایونت‌ها */
+    gap: 10px;
+    /* فاصله بین ایونت‌ها */
+}
+
+.btn{
+    border-radius: 10px !important;
 }
 
 /* برای نمایش فقط 3 ایونت اول بدون اسکرول و بقیه با اسکرول */
-.nearestEvents__event {
+.NearestEvent__event {
     max-height: 400px;
     overflow-y: hidden;
 }
 
-.nearestEvents__event:hover {
+.NearestEvent__event:hover {
     overflow-y: auto;
 }
 
 /* استایل‌دهی اسکرول بار */
-.nearestEvents__event::-webkit-scrollbar {
+.NearestEvent__event::-webkit-scrollbar {
     width: 6px;
 }
 
-.nearestEvents__event::-webkit-scrollbar-track {
+.NearestEvent__event::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 10px;
 }
 
-.nearestEvents__event::-webkit-scrollbar-thumb {
+.NearestEvent__event::-webkit-scrollbar-thumb {
     background: #c1c1c1;
     border-radius: 10px;
 }
 
-.nearestEvents__event::-webkit-scrollbar-thumb:hover {
+.NearestEvent__event::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8;
+}
+
+.col-5-5{
+    width: 45%;
 }

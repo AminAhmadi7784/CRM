@@ -1,0 +1,23 @@
+.NearestEvents {
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+
+
+}
+.back-btn{
+    padding: 10px 0 10px 0;
+}
+
+.NearestEvents__event {
+    margin-top: 20px;
+}
+
+.NearestEvents {
+    height: 100%;
+}
+
+.row{
+    margin: 0 2px 0 2px;
+}
